@@ -1,6 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import { rhythm, scale } from "../utils/typography"
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -33,18 +35,26 @@ const BlogIndex = ({ data, location }) => {
 
           return (
             <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
+              <article itemScope itemType="http://schema.org/Article">
                 <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                  <h3
+                    style={{
+                      fontFamily: "Montserrat, sans-serif",
+                      fontSize: rhythm(1),
+                      marginBottom: rhythm(1 / 4),
+                    }}
+                  >
+                    <Link
+                      style={{ boxShadow: "none" }}
+                      to={post.fields.slug}
+                      itemProp="url"
+                    >
                       <span itemProp="headline">{title}</span>
                     </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
+                  </h3>
+                  <small style={{ fontSize: "12px", fontStyle: "italic" }}>
+                    {post.frontmatter.date}
+                  </small>
                 </header>
                 <section>
                   <p

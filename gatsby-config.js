@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Blog for noobs`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Anil Pdv, :) `,
+      summary: `   who building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A Simple blog with lot of information.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `anilpdv42`,
     },
   },
   plugins: [
@@ -70,6 +70,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-dark-mode",
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
