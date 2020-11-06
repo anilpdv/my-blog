@@ -13,7 +13,9 @@ export default class ToggleTheme extends React.Component {
           <>
             <label>
               <Toggle
-                defaultChecked={theme === "dark"}
+                defaultChecked={theme !== "dark"}
+                name="toastIsReady"
+                value="yes"
                 icons={{
                   checked: (
                     <img
