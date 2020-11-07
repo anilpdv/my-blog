@@ -31,6 +31,16 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-emoji", // <-- this adds emoji
+            options: {
+              // default emojiConversion --> shortnameToUnicode
+              emojiConversion: "shortnameToUnicode",
+              // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
+              // e.g. ;) --> 😉
+              ascii: true,
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
@@ -46,6 +56,7 @@ module.exports = {
             resolve: "gatsby-remark-prismjs",
             options: {
               inlineCodeMarker: "÷",
+              copy: true,
             },
           },
           `gatsby-remark-copy-linked-files`,

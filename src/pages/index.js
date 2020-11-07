@@ -6,10 +6,14 @@ import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import readingTime from "reading-time"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
+  const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif`
 
   if (posts.length === 0) {
     return (
@@ -25,6 +29,12 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
+  const getReadingTime = text => {
+    let rt = readingTime(text)
+    console.log(rt, text)
+    return rt.text
+  }
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
@@ -37,7 +47,11 @@ const BlogIndex = ({ data, location }) => {
 
             return (
               <li key={post.fields.slug}>
-                <article itemScope itemType="http://schema.org/Article">
+                <article
+                  itemScope
+                  itemType="http://schema.org/Article"
+                  style={{ fontFamily: systemFont }}
+                >
                   <header>
                     <h3
                       style={{
@@ -55,7 +69,8 @@ const BlogIndex = ({ data, location }) => {
                       </Link>
                     </h3>
                     <small style={{ fontSize: "12px", fontStyle: "italic" }}>
-                      {post.frontmatter.date}
+                      {post.frontmatter.date}{" "}
+                      <strong>{`   *  ${getReadingTime(post.html)}`}</strong>
                     </small>
                   </header>
                   <section>
@@ -64,6 +79,7 @@ const BlogIndex = ({ data, location }) => {
                         __html: post.frontmatter.description || post.excerpt,
                       }}
                       itemProp="description"
+                      style={{ fontFamily: systemFont }}
                     />
                   </section>
                 </article>
@@ -86,6 +102,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
+        html
         excerpt
         fields {
           slug

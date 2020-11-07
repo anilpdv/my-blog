@@ -46,7 +46,7 @@ const Layout = ({ location, title, children }) => {
             style={{
               boxShadow: "none",
               textDecoration: "none",
-              color: "rgb(255, 167, 196)",
+              color: "var(--textLink)",
             }}
             to={"/"}
           >
