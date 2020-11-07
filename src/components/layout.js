@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import ToggleTheme from "./toggleTheme"
-import { rhythm, scale } from '../utils/typography';
+import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
-let renderHeader = () => {
-    const rootPath = `${__PATH_PREFIX__}/`;
+  let renderHeader = () => {
+    const rootPath = `${__PATH_PREFIX__}/`
 
     if (location.pathname === rootPath) {
       return (
@@ -21,59 +21,84 @@ let renderHeader = () => {
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'var(--textTitle)',
+              boxShadow: "none",
+              textDecoration: "none",
+              color: "var(--textTitle)",
             }}
-            to={'/'}
+            to={"/"}
           >
             {title}
           </Link>
         </h1>
-      );
+      )
     } else {
       return (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: "Montserrat, sans-serif",
             marginTop: 0,
             marginBottom: 0,
             height: 42, // because
-            lineHeight: '2.625rem',
+            lineHeight: "2.625rem",
           }}
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'rgb(255, 167, 196)',
+              boxShadow: "none",
+              textDecoration: "none",
+              color: "rgb(255, 167, 196)",
             }}
-            to={'/'}
+            to={"/"}
           >
             {title}
           </Link>
         </h3>
-      );
+      )
     }
   }
 
-  
-
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}
-    style={{
-      backgroundColor: 'var(--bg)',
-      color: 'var(--textNormal)',
-      transition: 'color 0.2s ease-out, background 0.2s ease-out',
-      minHeight: '100vh'
-    }}
+    <div
+      className="global-wrapper"
+      data-is-root-path={isRootPath}
+      style={{
+        backgroundColor: "var(--bg)",
+        color: "var(--textNormal)",
+        transition: "color 0.2s ease-out, background 0.2s ease-out",
+        minHeight: "100vh",
+      }}
     >
-      <div style={{display:'flex',justifyContent:'space-between'}}>
-      <header className="global-header" >{renderHeader()}</header>
-      <ToggleTheme/>
- 
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "baseline",
+        }}
+      >
+        {location.pathname !== "/about-me" ? (
+          <ol style={{ listStyle: "none" }}>
+            <li>
+              <Link
+                style={{
+                  boxShadow: "none",
+                  textDecoration: "none",
+                  fontWeight: "bold",
+                  textDecoration: "none",
+                  fontFamily: "inherit,sans-serif,monospace",
+                }}
+                to={"/about-me"}
+              >
+                About me
+              </Link>
+            </li>
+          </ol>
+        ) : (
+          ""
+        )}
+        <header className="global-header">{renderHeader()}</header>
+        <ToggleTheme />
       </div>
-     <main>{children}</main>
+      <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}

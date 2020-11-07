@@ -30,44 +30,46 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+        {posts
+          .filter(post => post.frontmatter.title !== "about me")
+          .map(post => {
+            const title = post.frontmatter.title || post.fields.slug
 
-          return (
-            <li key={post.fields.slug}>
-              <article itemScope itemType="http://schema.org/Article">
-                <header>
-                  <h3
-                    style={{
-                      fontFamily: "Montserrat, sans-serif",
-                      fontSize: rhythm(1),
-                      marginBottom: rhythm(1 / 4),
-                    }}
-                  >
-                    <Link
-                      style={{ boxShadow: "none" }}
-                      to={post.fields.slug}
-                      itemProp="url"
+            return (
+              <li key={post.fields.slug}>
+                <article itemScope itemType="http://schema.org/Article">
+                  <header>
+                    <h3
+                      style={{
+                        fontFamily: "Montserrat, sans-serif",
+                        fontSize: rhythm(1),
+                        marginBottom: rhythm(1 / 4),
+                      }}
                     >
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h3>
-                  <small style={{ fontSize: "12px", fontStyle: "italic" }}>
-                    {post.frontmatter.date}
-                  </small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
+                      <Link
+                        style={{ boxShadow: "none" }}
+                        to={post.fields.slug}
+                        itemProp="url"
+                      >
+                        <span itemProp="headline">{title}</span>
+                      </Link>
+                    </h3>
+                    <small style={{ fontSize: "12px", fontStyle: "italic" }}>
+                      {post.frontmatter.date}
+                    </small>
+                  </header>
+                  <section>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || post.excerpt,
+                      }}
+                      itemProp="description"
+                    />
+                  </section>
+                </article>
+              </li>
+            )
+          })}
       </ol>
     </Layout>
   )
