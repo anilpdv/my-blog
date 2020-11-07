@@ -88,7 +88,7 @@ const Layout = ({ location, title, children }) => {
                 }}
                 to={"/about-me"}
               >
-                About me
+                About
               </Link>
             </li>
           </ol>

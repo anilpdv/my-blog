@@ -41,7 +41,7 @@ const BlogIndex = ({ data, location }) => {
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts
-          .filter(post => post.frontmatter.title !== "about me")
+          .filter(post => post.frontmatter.title !== "About me")
           .map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
