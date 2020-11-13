@@ -4,13 +4,11 @@ date: "2020-11-14T22:12:03.284Z"
 description: "Basics of designing.."
 ---
 
-# Basics of designing
-
 ## Content
 
 > content is most important thing in design, before you start. Having content eliminates most of the issues cause after.
 
-#### Something things to remember when writing content for the web.
+### Something things to remember when writing content for the web.
 
 - Separate long chunks of text into short paragraphs.
 - Re - write pariahs in to bullet points.
@@ -19,13 +17,12 @@ description: "Basics of designing.."
 example: we have this text here which description of this website [Home - Princess Anne Country Club](https://www.princessannecc.com)
 
 # Where the coast, courts and course converge.
-
 ##### A cool ocean breeze, soothing salt air and Virginia Beach’s finest folks make the Princess Anne Country Club the perfect place to relax with friends, spend quality time with your family and enjoy a laid back beach lifestyle. Since 1916, the Princess Anne has provided a haven for members, their families and guests. As Virginia’s premier coastal private country club destination, we are dedicated to providing our members and guests exceptional hospitality, challenging fitness opportunities, excellence in cuisine and engaging social experiences for all age groups to enjoy. Welcome.
 
-**~we can rearrange this is bit of content, using above principles like this.~**
+> we can rearrange this is bit of content, using above principles like this.
+
 
 EST. 1916
-
 # Where the coast, courts and course converge.
 
 ###### A cool ocean breeze, soothing salt air and Virginia Beach’s finest folks make the Princess Anne Country Club the perfect place to relax with friends, spend quality time with your family and enjoy a laid back beach lifestyle.
