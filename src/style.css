@@ -3,89 +3,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,400&display=swap");
 
 :root {
-  --maxWidth-none: "none";
-  --maxWidth-xs: 20rem;
-  --maxWidth-sm: 24rem;
-  --maxWidth-md: 28rem;
-  --maxWidth-lg: 32rem;
-  --maxWidth-xl: 36rem;
-  --maxWidth-2xl: 42rem;
-  --maxWidth-3xl: 48rem;
-  --maxWidth-4xl: 56rem;
-  --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
-  --spacing-px: "1px";
-  --spacing-0: 0;
-  --spacing-1: 0.25rem;
-  --spacing-2: 0.5rem;
-  --spacing-3: 0.75rem;
-  --spacing-4: 1rem;
-  --spacing-5: 1.25rem;
-  --spacing-6: 1.5rem;
-  --spacing-8: 2rem;
-  --spacing-10: 2.5rem;
-  --spacing-12: 3rem;
-  --spacing-16: 4rem;
-  --spacing-20: 5rem;
-  --spacing-24: 6rem;
-  --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
-    Times, serif;
-  --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
-  --fontWeight-normal: 400;
-  --fontWeight-medium: 500;
-  --fontWeight-semibold: 600;
-  --fontWeight-bold: 700;
-  /* 1.200 Minor Third Type Scale */
-  --fontSize-0: 0.833rem;
-  --fontSize-1: 1rem;
-  --fontSize-2: 1.2rem;
-  --fontSize-3: 1.44rem;
-  --fontSize-4: 1.728rem;
-  --fontSize-5: 2.074rem;
-  --fontSize-6: 2.488rem;
-  --fontSize-7: 2.986rem;
+    --maxWidth-none: "none";
+    --maxWidth-xs: 20rem;
+    --maxWidth-sm: 24rem;
+    --maxWidth-md: 28rem;
+    --maxWidth-lg: 32rem;
+    --maxWidth-xl: 36rem;
+    --maxWidth-2xl: 42rem;
+    --maxWidth-3xl: 48rem;
+    --maxWidth-4xl: 56rem;
+    --maxWidth-full: "100%";
+    --maxWidth-wrapper: var(--maxWidth-2xl);
+    --spacing-px: "1px";
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-5: 1.25rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-10: 2.5rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-20: 5rem;
+    --spacing-24: 6rem;
+    --spacing-32: 8rem;
+    --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+        Times, serif;
+    --font-body: var(--fontFamily-serif);
+    --font-heading: var(--fontFamily-sans);
+    --fontWeight-normal: 400;
+    --fontWeight-medium: 500;
+    --fontWeight-semibold: 600;
+    --fontWeight-bold: 700;
+    /* 1.200 Minor Third Type Scale */
+    --fontSize-0: 0.833rem;
+    --fontSize-1: 1rem;
+    --fontSize-2: 1.2rem;
+    --fontSize-3: 1.44rem;
+    --fontSize-4: 1.728rem;
+    --fontSize-5: 2.074rem;
+    --fontSize-6: 2.488rem;
+    --fontSize-7: 2.986rem;
 }
 
 /* bear minimalist css*/
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Avenir Next", "Nunito", sans-serif;
-  font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir Next", "Nunito", sans-serif;
+    font-size: 14px;
 }
 
 h1 {
-  font-size: 26px;
-  font-weight: 700;
+    font-size: 26px;
+    font-weight: 700;
 }
 
 h2 {
-  font-size: 20px;
-  font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 h4,
 h5,
 h6 {
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.84px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.84px;
 }
 
 p {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 h1,
@@ -94,114 +95,115 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Avenir Next", "Nunito", Arial, Helvetica, sans-serif;
-  letter-spacing: 0.54px;
-  word-spacing: 1.5px;
-  line-height: 1.8em;
-  margin-bottom: 16px;
-  margin-top: 18px;
+    font-family: "Avenir Next", "Nunito", Arial, Helvetica, sans-serif;
+    letter-spacing: 0.54px;
+    word-spacing: 1.5px;
+    line-height: 1.8em;
+    margin-bottom: 16px;
+    margin-top: 18px;
 }
 .tag::before {
-  content: "#";
-  color: #dee2e6;
+    content: "#";
+    color: #dee2e6;
 }
 
 .tag {
-  background-color: #868e96;
-  color: #fbfbfb;
-  border-radius: 50px;
-  padding: 5px 9px;
-  display: inline;
-  font-size: 12px;
+    background-color: #868e96;
+    color: #fbfbfb;
+    border-radius: 50px;
+    padding: 5px 9px;
+    display: inline;
+    font-size: 12px;
 }
 
 p {
-  font-family: "Avenir Next", "Nunito", Arial, Helvetica, sans-serif;
-  letter-spacing: 0.54px;
-  word-spacing: 1.5px;
-  line-height: 1.8em;
+    font-family: "Avenir Next", "Nunito", Arial, Helvetica, sans-serif;
+    letter-spacing: 0.54px;
+    word-spacing: 1.5px;
+    line-height: 1.8em;
 }
 
 ul > li {
-  font-family: "Avenir Next", "Nunito", sans-serif;
-  letter-spacing: 0.54px;
-  word-spacing: 1.5px;
-  font-weight: 400;
-  font-family: 14px;
+    font-family: "Avenir Next", "Nunito", sans-serif;
+    letter-spacing: 0.54px;
+    word-spacing: 1.5px;
+    font-weight: 400;
+    font-family: 14px;
 }
 
 ol > li {
-  font-family: "Avenir Next", "Nunito", sans-serif;
-  letter-spacing: 0.54px;
-  word-spacing: 1.5px;
-  font-weight: 400;
+    font-family: "Avenir Next", "Nunito", sans-serif;
+    letter-spacing: 0.54px;
+    word-spacing: 1.5px;
+    font-weight: 400;
 }
 
 u::before,
 u::after {
-  content: "\00a0\00a0";
-  color: #adb5bd;
+    content: "\00a0\00a0";
+    color: #adb5bd;
 }
 
 b::before,
 b::after {
-  content: "*";
-  color: #ced4da;
-  font-weight: normal;
+    content: "*";
+    color: #ced4da;
+    font-weight: normal;
 }
 
 b {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 s {
-  color: #868e96;
-  text-decoration-color: #868e96;
+    color: #868e96;
+    text-decoration-color: #868e96;
 }
 /* bear minimalist css end*/
 
 footer {
-  padding: var(--spacing-6) var(--spacing-0);
+    padding: var(--spacing-6) var(--spacing-0);
 }
 
 .global-wrapper {
-  margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-10) var(--spacing-5);
+    margin: var(--spacing-0) auto;
+    max-width: var(--maxWidth-wrapper);
+    padding: var(--spacing-10) var(--spacing-5);
 }
 
 .global-header {
-  margin-bottom: var(--spacing-10);
+    margin-bottom: var(--spacing-10);
 }
 
 .main-heading {
-  font-size: var(--fontSize-4);
-  margin: 0;
+    font-size: var(--fontSize-4);
+    margin: 0;
 }
 
 .bio {
-  display: flex;
-  margin-bottom: var(--spacing-16);
+    display: flex;
+    margin-bottom: var(--spacing-16);
 }
 
 .bio p {
-  margin-bottom: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
 }
 
 .bio-avatar {
-  margin-right: var(--spacing-4);
-  margin-bottom: var(--spacing-0);
-  min-width: 50px;
-  border-radius: 100%;
+    margin-right: var(--spacing-4);
+    margin-bottom: var(--spacing-0);
+    min-width: 50px;
+    border-radius: 100%;
 }
 
 @media (max-width: 42rem) {
-  blockquote {
-    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
-    margin-left: var(--spacing-0);
-  }
-  ul,
-  ol {
-    list-style-position: inside;
-  }
+    blockquote {
+        padding: var(--spacing-0) var(--spacing-0) var(--spacing-0)
+            var(--spacing-4);
+        margin-left: var(--spacing-0);
+    }
+    ul,
+    ol {
+        list-style-position: inside;
+    }
 }

@@ -10,31 +10,32 @@ description: "Basics of designing.."
 
 ### Something things to remember when writing content for the web.
 
-- Separate long chunks of text into short paragraphs.
-- Re - write pariahs in to bullet points.
-- Try to vary the type of text as much as possible.
+-   Separate long chunks of text into short paragraphs.
+-   Re - write pariahs in to bullet points.
+-   Try to vary the type of text as much as possible.
 
 example: we have this text here which description of this website [Home - Princess Anne Country Club](https://www.princessannecc.com)
 
-# Where the coast, courts and course converge.
-##### A cool ocean breeze, soothing salt air and Virginia Beach’s finest folks make the Princess Anne Country Club the perfect place to relax with friends, spend quality time with your family and enjoy a laid back beach lifestyle. Since 1916, the Princess Anne has provided a haven for members, their families and guests. As Virginia’s premier coastal private country club destination, we are dedicated to providing our members and guests exceptional hospitality, challenging fitness opportunities, excellence in cuisine and engaging social experiences for all age groups to enjoy. Welcome.
+### Where the coast, courts and course converge.
+
+A cool ocean breeze, soothing salt air and Virginia Beach’s finest folks make the Princess Anne Country Club the perfect place to relax with friends, spend quality time with your family and enjoy a laid back beach lifestyle. Since 1916, the Princess Anne has provided a haven for members, their families and guests. As Virginia’s premier coastal private country club destination, we are dedicated to providing our members and guests exceptional hospitality, challenging fitness opportunities, excellence in cuisine and engaging social experiences for all age groups to enjoy. Welcome.
 
 > we can rearrange this is bit of content, using above principles like this.
 
-
 EST. 1916
-# Where the coast, courts and course converge.
 
-###### A cool ocean breeze, soothing salt air and Virginia Beach’s finest folks make the Princess Anne Country Club the perfect place to relax with friends, spend quality time with your family and enjoy a laid back beach lifestyle.
+### Where the coast, courts and course converge.
 
-- **exceptional hospitality and service.**
-  Your home away from home with our attentive and professional staff to help make your experience memorable.
+A cool ocean breeze, soothing salt air and Virginia Beach’s finest folks make the Princess Anne Country Club the perfect place to relax with friends, spend quality time with your family and enjoy a laid back beach lifestyle.
 
-- **challenging fitness opportunities**
-  From our well equipped gym and our indoor heated pool to our 16-hole golf course, you’ll find something to entertain your whole family.
+-   **exceptional hospitality and service.**
+    Your home away from home with our attentive and professional staff to help make your experience memorable.
 
-- **excellence in cuisine and engaging social experiences for all age groups to enjoy.**
-  Our Michelin star chefs are proud to serve some of the finest locally sourced produce in our beautiful during area.
+-   **challenging fitness opportunities**
+    From our well equipped gym and our indoor heated pool to our 16-hole golf course, you’ll find something to entertain your whole family.
+
+-   **excellence in cuisine and engaging social experiences for all age groups to enjoy.**
+    Our Michelin star chefs are proud to serve some of the finest locally sourced produce in our beautiful during area.
 
 ---
 
@@ -56,8 +57,8 @@ For gathering information and storing would be lot more headache, use a website 
 
 **~Use this websites to get inspirations designs.~**
 
-- [Land-book - the finest hand-picked website inspirations](https://land-book.com)
-- [Dribbble - Discover the World’s Top Designers & Creative Professionals](https://dribbble.com)
+-   [Land-book - the finest hand-picked website inspirations](https://land-book.com)
+-   [Dribbble - Discover the World’s Top Designers & Creative Professionals](https://dribbble.com)
 
 ---
 
@@ -69,5 +70,5 @@ For sketching you don’t really need big tools, sketching is blue print for the
 
 **~things you need~**
 
-- you’re content.
-- your folder of inspiration.
+-   you’re content.
+-   your folder of inspiration.
