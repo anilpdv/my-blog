@@ -1,5 +1,7 @@
 /* CSS Custom Properties Definitions */
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,400&display=swap");
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -55,7 +57,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Avenir Next", "Nunito", sans-serif;
   font-size: 14px;
 }
 
@@ -92,7 +94,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  font-family: "Avenir Next", "Nunito", Arial, Helvetica, sans-serif;
   letter-spacing: 0.54px;
   word-spacing: 1.5px;
   line-height: 1.8em;
@@ -114,14 +116,14 @@ h6 {
 }
 
 p {
-  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  font-family: "Avenir Next", "Nunito", Arial, Helvetica, sans-serif;
   letter-spacing: 0.54px;
   word-spacing: 1.5px;
   line-height: 1.8em;
 }
 
 ul > li {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Avenir Next", "Nunito", sans-serif;
   letter-spacing: 0.54px;
   word-spacing: 1.5px;
   font-weight: 400;
@@ -129,7 +131,7 @@ ul > li {
 }
 
 ol > li {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Avenir Next", "Nunito", sans-serif;
   letter-spacing: 0.54px;
   word-spacing: 1.5px;
   font-weight: 400;

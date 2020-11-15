@@ -15,27 +15,13 @@ title: "About me"
 
 # Let's talk about Anil Pdv
 
-![Anil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=anilpdv&show_icons=false&theme=algolia)
+![Anil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=anilpdv&show_icons=false&theme=nightowl)
 
 He is a self-taught developer with 2+ years of experience who loves creating new exciting and challenging projects.
 
 Two years ago he fell in love with the [Python programming language](https://python.org), and since then he hasn't cheated on for any other. Proof Of Concept:
 
-![Anil' Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anilpdv&layout=compact&theme=algolia)
+![Anil' Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anilpdv&layout=compact&theme=nightowl)
 
 <br>
 
-# achievement
-
-<a href="https://github.com/anilpdv/ebook_viewer_project">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anilpdv&repo=ebook_viewer_project&theme=algolia" />
-</a>
-<a href="https://github.com/anilpdv/quotesrestapi-refactor">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anilpdv&repo=quotesrestapi-refactor&theme=algolia" />
-</a>
-<a href="https://github.com/anilpdv/musiq-app">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anilpdv&repo=musiq-app&theme=algolia" />
-</a>
-<a href="https://github.com/anilpdv/video-spider">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anilpdv&repo=video-spider&theme=algolia" />
-</a>
